@@ -29,8 +29,6 @@ sleep(2)
 booksearched = @browser.button(:class, 'lmargin5 btn btn-orange btn-buy-big fk-buy-now fkg-pp-buy-btn')
 booksearched.click
 sleep(4)
-
-
 end
 
 Then /^Place order$/ do
